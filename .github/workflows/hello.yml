@@ -1,0 +1,9 @@
+name: Hello World
+on: [push]
+
+jobs:
+  greet:
+   runs-on: ubuntu-latet
+   steps:
+    -  name: Print Hello World
+       run: echo "Hello from github actions" 
